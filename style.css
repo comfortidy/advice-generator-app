@@ -1,0 +1,82 @@
+body{
+   background-color:  hsl(218, 23%, 16%);
+   display: flex;
+   align-items: center;
+   height: 100vh;
+   justify-content: center;
+   text-align: center; 
+    flex-direction: column;
+    font-family: "Manrope", sans-serif;
+}
+.advice-card{
+    background-color: hsl(217, 19%, 24%);
+    width: 450px;
+    height: 240px;
+    border-radius: 15px;
+    padding: 17px 35px;
+
+}
+.title{
+    text-transform: uppercase;
+    color: hsl(150, 100%, 66%);
+    font-family: "Manrope", sans-serif;
+    height: 5px;
+    }
+    .advice-text{
+        color:  hsl(193, 38%, 86%);
+        margin-bottom: 25px;
+        font-size: 28px;
+    }
+    .btn{
+        background-color: hsl(150, 100%, 66%);
+        position: absolute;
+        bottom: 20rem;
+        left: 50%;
+        border: none;
+        transition: all 3s;
+        border-radius: 50%;
+        cursor: pointer;
+        padding: 13px 13px;
+        transform: translateX(-50%);
+        }
+    .btn image{
+        width: 100%;
+        width: 100%;
+        transform: scale(0.5);
+
+    }
+    .divider{width: 100px;}
+    .btn:hover{
+        box-shadow: rgba(82, 255, 169, 0.466) 0px 8px 24px,
+        rgba(82, 255, 169, 0.412) 0px 16px 56px,
+        rgba(82, 255, 169, 0.479) 0px 24px 80px;
+    }
+
+    @media only screen and (max-width: 700px){
+     .advice-card{
+         width: 170px;
+         height: 250px;
+         padding: 4.8rem 4.5rem 7rem 4.5rem;
+        
+        } 
+     .mobile{
+         display: none;
+     }
+     .desktop{
+         display: block;
+     }
+     .divider{
+         width: 100%;
+        margin-top: 50px;
+        align-items: flex-start;
+     }
+     .btn{
+         bottom: 78px;
+     }
+    }
+    .body{
+        
+        
+    }
+
+    
